@@ -193,6 +193,7 @@ path {
     position: relative;
     text-align: center;
     width: 123vw;
+    font-size: 9px;
 }
   .image-container img.img-fluid {
     display: none;
