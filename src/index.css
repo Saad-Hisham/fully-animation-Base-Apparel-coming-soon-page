@@ -184,6 +184,16 @@ path {
 }
 
 @media (max-width: 767px) {
+  footer {
+    background-color: #f7e1e4;
+    bottom: 0;
+    color: #777;
+    font-size: 14px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    width: 123vw;
+}
   .image-container img.img-fluid {
     display: none;
   }
