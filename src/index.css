@@ -210,11 +210,10 @@ a {
   text-transform: uppercase;
 }
 
-@media (max-height: 702px) {
+@media (max-height: 689px) {
   .information-container {
     margin-left: 13px;
-    margin-top: 61px;
-  }
+    margin-top: 32px;  }
 }
 
 @media (max-width: 767px) {
