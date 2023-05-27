@@ -212,6 +212,11 @@ a {
 }
 
 @media (max-height: 777px) {
+  .information-container p {
+    color: #d9b6ba;
+    line-height: 34px;
+    width: 100%;
+}
   .information-container {
     margin-left: 13px;
     margin-top: 32px;  }
