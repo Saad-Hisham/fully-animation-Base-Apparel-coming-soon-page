@@ -184,7 +184,7 @@ path {
 @media (max-width: 992px) {
   .image-container img.img-fluid {
     height: 100%;
-    width: 40vw;
+    width: 30vw;
   }
 }
 
@@ -210,7 +210,7 @@ a {
   text-transform: uppercase;
 }
 
-@media (max-height: 689px) {
+@media (max-height: 777px) {
   .information-container {
     margin-left: 13px;
     margin-top: 32px;  }
