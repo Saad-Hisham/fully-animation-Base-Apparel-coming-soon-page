@@ -57,9 +57,13 @@ function App() {
             </motion.div>
           </Row>
         </Container>
-        <div className='lady-mobile-image-container'>
+    <motion.div className='lady-mobile-image-container'
+                initial={{ x: "600" }}
+                animate={{ x: 0, transition: { duration: 2, delay: 4 } }}
+              >
+       
           <img src={ladyMobile} alt="Beautiful lady wearing a shirt with plants in the background" />
-        </div>
+        </motion.div>
         <Container>
           <Row>
             {/* information container */}
