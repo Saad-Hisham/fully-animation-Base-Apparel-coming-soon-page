@@ -13,45 +13,45 @@ function App() {
             {/* logo div  */}
             <motion.div
               initial={{ x: "30vw", scale: 2 }}
-              animate={{ x: 0, scale: 1, transition: { duration: 2, delay: 4 } }}
+              animate={{ x: 0, scale: 1, transition: { duration: 2, delay: 4 ,ease: "easeInOut"} }}
 
               className='logo-container'>
               <div className='logo'>
                 <motion.span className='logo-circle'
                   initial={{ opacity: 0, scale: 0 }}
-                  animate={{ opacity: 1, scale: 1, transition: { duration: 2, delay: 0 } }}
+                  animate={{ opacity: 1, scale: 1, transition: { duration: 2, delay: 0 ,ease: "easeInOut"} }}
                 ></motion.span>
 
                 <p>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 1.7 } }}>b</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 1.7,ease: "easeInOut" } }}>b</motion.span>
 
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 1.8 } }}>a</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 1.8 ,ease: "easeInOut"} }}>a</motion.span>
 
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2 } }}>s</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2 ,ease: "easeInOut"} }}>s</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2 } }}>e</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2,ease: "easeInOut" } }}>e</motion.span>
                   <br>
                   </br>
 
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.2 } }}>a</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.2 ,ease: "easeInOut"} }}>a</motion.span>
 
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.4 } }}>p</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.4 ,ease: "easeInOut"} }}>p</motion.span>
 
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 } }}>p</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>p</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 } }}>a</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 ,ease: "easeInOut"} }}>a</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 } }}>r</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 ,ease: "easeInOut"} }}>r</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 } }}>e</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>e</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 } }}>l</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>l</motion.span>
                 </p>
               </div>
             </motion.div>
@@ -59,7 +59,7 @@ function App() {
         </Container>
     <motion.div className='lady-mobile-image-container'
                 initial={{ x: "600" }}
-                animate={{ x: 0, transition: { duration: 2, delay: 4 } }}
+                animate={{ x: 0, transition: { duration: 2, delay: 4 ,ease: "easeInOut"} }}
               >
        
           <img src={ladyMobile} alt="Beautiful lady wearing a shirt with plants in the background" />
@@ -82,31 +82,31 @@ function App() {
                     <br></br>
                     <motion.span
                       initial={{ opacity: 0, x: -20 }}
-                      animate={{ opacity: 1, x: 0, transition: { duration: .7, delay: 5 } }}
+                      animate={{ opacity: 1, x: 0, transition: { duration: .7, delay: 5,ease: "easeInOut" } }}
                     >coming
                     </motion.span>
                     <br></br>
                     <motion.span
                       initial={{ opacity: 0, x: 20 }}
-                      animate={{ opacity: 1, x: 0, transition: { duration: .7, delay: 5.2 } }}
+                      animate={{ opacity: 1, x: 0, transition: { duration: .7, delay: 5.2,ease: "easeInOut" } }}
                     >soon</motion.span>
                   </h1>
                   {/* paragraph */}
                   <p className='body-text'><motion.span
                     initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5 } }}
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5,ease: "easeInOut" } }}
 
                   >Hello fellow shoppers! We're currently building our new
                   </motion.span>
                     <motion.span
                       initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5.2 } }}
+                      animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5.2,ease: "easeInOut" } }}
 
                     > fashion store.
                       Add your email below to stay up-to-date with</motion.span>
                     <motion.span
                       initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5.4 } }}
+                      animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 5.4 ,ease: "easeInOut"} }}
 
                     >announcements and our launch deals.</motion.span></p>
                 </div>
@@ -115,12 +115,12 @@ function App() {
                   <form>
                     <motion.input
                       initial={{ scaleX: 0 }}
-                      animate={{ scaleX: 1, transition: { duration: .7, delay: 5.7 } }}
+                      animate={{ scaleX: 1, transition: { duration: .7, delay: 5.7,ease: "easeInOut" } }}
                       type='text' required placeholder='  Email Address' />
                     <motion.button
                       className='submit'
                       initial={{ opacity: 0 }}
-                      animate={{ opacity: 1, transition: { duration: .7, delay: 6.3 } }}
+                      animate={{ opacity: 1, transition: { duration: .7, delay: 6.3 ,ease: "easeInOut"} }}
                     >
                       <img src={arrow} alt='arrow icon' />
                     </motion.button>
@@ -132,7 +132,7 @@ function App() {
             <Col md={6} sm={12}>
               <motion.div className='image-container'
                 initial={{ x: "600" }}
-                animate={{ x: 0, transition: { duration: 2, delay: 4 } }}
+                animate={{ x: 0, transition: { duration: 2, delay: 4,ease: "easeInOut" } }}
               >
                 <img src={lady} className='img-fluid' alt="Beautiful lady wearing a shirt with plants in the background" />
               </motion.div>
