@@ -272,6 +272,7 @@ a {
   h1,
   p.body-text {
     text-align: center;
+    width: 100%;
   }
 
   .form-container {
