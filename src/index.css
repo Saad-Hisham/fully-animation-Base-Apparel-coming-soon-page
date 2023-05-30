@@ -164,7 +164,7 @@ path {
   stroke-width: 5;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: draw 5s ease-in-out forwards 4s;
+  animation: draw 5s ease-in-out forwards 5.5s;
 }
 
 @keyframes draw {
