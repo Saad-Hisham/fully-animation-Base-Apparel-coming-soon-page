@@ -45,13 +45,13 @@ function App() {
                   <motion.span initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>p</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 ,ease: "easeInOut"} }}>a</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.8 ,ease: "easeInOut"} }}>a</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6 ,ease: "easeInOut"} }}>r</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 3 ,ease: "easeInOut"} }}>r</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>e</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 3.2,ease: "easeInOut" } }}>e</motion.span>
                   <motion.span initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 2.6,ease: "easeInOut" } }}>l</motion.span>
+                    animate={{ opacity: 1, y: 0, transition: { duration: .7, delay: 3.4,ease: "easeInOut" } }}>l</motion.span>
                 </p>
               </div>
             </motion.div>
